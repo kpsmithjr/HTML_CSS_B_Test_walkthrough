@@ -1,0 +1,57 @@
+table {
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+#GM {
+  background-color: red;
+}
+
+.grid-container {
+  display: grid;
+  background-color: aqua;
+  align-items: center;
+
+  grid-template-rows: 200px;
+  grid-template-columns: 110px 110px 110px;
+  /* gap: 10px; */
+
+}
+
+.grid-item {
+  text-align: center;
+  height: 100px;
+  background-color: lightgreen;
+  margin-left: 10px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: aqua;
+  height: 200px;
+  align-items: center;
+  /* flex-direction: row; */
+}
+
+.flex-item {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  margin-left: 10px;
+}
+
+.img-container {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img-container img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+}
